@@ -11,12 +11,12 @@ for pergunta in perguntas:
                 conts += 1
             break
         else:
-            print("Por favor, responda apenas com 'S' para 'Sim' ou 'N' para 'Não'.")
+            print("POR FAVOR, RESPONDA APENAS COM 'S' PARA 'SIM' OU 'N' PARA 'NÃO'!")
 if conts == 4:
-    print ("VOCÊ É UM ASSASSINO, CARA!")
+    print ("VOCÊ É UM ASSASSINO!")
 elif conts == 3:
-    print ("HMMMM, ME PARECE QUE VOCÊ É CUMPLICE DISSO AÍ EIN!")
+    print ("VOCÊ É CUMPLICE!")
 elif conts == 2:
-    print ("IIIIIIH TÁ SUSPEITO EIN, CHEGADO!")
+    print ("VOCÊ É SUSPEITO!")
 else:
     print ("VOCÊ É INOCENTE! MAS POR QUANTO TEMPO?")
